@@ -41,7 +41,7 @@ function deposit() {
   cy.contains('Transactions').click();
   cy.contains('Amount').should('exist');
 }
-//Withdrawal
+//Withdraw
 function withdraw() {
   cy.contains('Back').click();
   cy.contains('Withdrawl').click().get('.form-control').type('1000000');
