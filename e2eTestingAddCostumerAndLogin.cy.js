@@ -1,5 +1,5 @@
 
-import data from "./valami";
+import data from "./Commands";
 
 describe('Test Login and Add user functionalities', () => {
   it('Login', () => {

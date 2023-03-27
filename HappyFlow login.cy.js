@@ -1,4 +1,4 @@
-import data from "./valami";
+import data from "./Commands";
 
 describe('Test Login happy flow', () => {
   it('Login', () => {
